@@ -47,9 +47,9 @@
             LeftUpButton.FlatAppearance.MouseOverBackColor = Color.Red;
             LeftUpButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             LeftUpButton.ForeColor = SystemColors.Desktop;
-            LeftUpButton.Location = new Point(208, 128);
+            LeftUpButton.Location = new Point(0, 108);
             LeftUpButton.Name = "LeftUpButton";
-            LeftUpButton.Size = new Size(87, 61);
+            LeftUpButton.Size = new Size(88, 72);
             LeftUpButton.TabIndex = 0;
             LeftUpButton.TabStop = false;
             LeftUpButton.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // 
             CenterButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             CenterButton.ForeColor = SystemColors.Desktop;
-            CenterButton.Location = new Point(290, 184);
+            CenterButton.Location = new Point(84, 177);
             CenterButton.Name = "CenterButton";
-            CenterButton.Size = new Size(87, 61);
+            CenterButton.Size = new Size(88, 72);
             CenterButton.TabIndex = 1;
             CenterButton.TabStop = false;
             CenterButton.UseVisualStyleBackColor = true;
@@ -71,9 +71,9 @@
             // 
             LeftButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             LeftButton.ForeColor = SystemColors.Desktop;
-            LeftButton.Location = new Point(208, 184);
+            LeftButton.Location = new Point(0, 177);
             LeftButton.Name = "LeftButton";
-            LeftButton.Size = new Size(87, 61);
+            LeftButton.Size = new Size(88, 72);
             LeftButton.TabIndex = 2;
             LeftButton.TabStop = false;
             LeftButton.UseVisualStyleBackColor = true;
@@ -83,9 +83,9 @@
             // 
             RightUpButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             RightUpButton.ForeColor = SystemColors.Desktop;
-            RightUpButton.Location = new Point(374, 128);
+            RightUpButton.Location = new Point(167, 108);
             RightUpButton.Name = "RightUpButton";
-            RightUpButton.Size = new Size(87, 61);
+            RightUpButton.Size = new Size(87, 72);
             RightUpButton.TabIndex = 3;
             RightUpButton.TabStop = false;
             RightUpButton.UseVisualStyleBackColor = true;
@@ -95,9 +95,9 @@
             // 
             UpButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             UpButton.ForeColor = SystemColors.Desktop;
-            UpButton.Location = new Point(290, 128);
+            UpButton.Location = new Point(84, 108);
             UpButton.Name = "UpButton";
-            UpButton.Size = new Size(87, 61);
+            UpButton.Size = new Size(87, 72);
             UpButton.TabIndex = 4;
             UpButton.TabStop = false;
             UpButton.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // 
             DownButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             DownButton.ForeColor = SystemColors.Desktop;
-            DownButton.Location = new Point(290, 241);
+            DownButton.Location = new Point(84, 242);
             DownButton.Name = "DownButton";
-            DownButton.Size = new Size(87, 61);
+            DownButton.Size = new Size(88, 72);
             DownButton.TabIndex = 5;
             DownButton.TabStop = false;
             DownButton.UseVisualStyleBackColor = true;
@@ -119,9 +119,9 @@
             // 
             LeftDownButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             LeftDownButton.ForeColor = SystemColors.Desktop;
-            LeftDownButton.Location = new Point(208, 241);
+            LeftDownButton.Location = new Point(0, 242);
             LeftDownButton.Name = "LeftDownButton";
-            LeftDownButton.Size = new Size(87, 61);
+            LeftDownButton.Size = new Size(88, 72);
             LeftDownButton.TabIndex = 6;
             LeftDownButton.TabStop = false;
             LeftDownButton.UseVisualStyleBackColor = true;
@@ -131,9 +131,9 @@
             // 
             RightButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             RightButton.ForeColor = SystemColors.Desktop;
-            RightButton.Location = new Point(374, 184);
+            RightButton.Location = new Point(167, 177);
             RightButton.Name = "RightButton";
-            RightButton.Size = new Size(87, 61);
+            RightButton.Size = new Size(87, 72);
             RightButton.TabIndex = 7;
             RightButton.TabStop = false;
             RightButton.UseVisualStyleBackColor = true;
@@ -143,9 +143,9 @@
             // 
             RightDownButton.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             RightDownButton.ForeColor = SystemColors.Desktop;
-            RightDownButton.Location = new Point(374, 241);
+            RightDownButton.Location = new Point(167, 242);
             RightDownButton.Name = "RightDownButton";
-            RightDownButton.Size = new Size(87, 61);
+            RightDownButton.Size = new Size(87, 72);
             RightDownButton.TabIndex = 8;
             RightDownButton.TabStop = false;
             RightDownButton.UseVisualStyleBackColor = true;
@@ -156,7 +156,7 @@
             XCount.AutoSize = true;
             XCount.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
             XCount.ForeColor = Color.Red;
-            XCount.Location = new Point(279, 59);
+            XCount.Location = new Point(73, 36);
             XCount.Name = "XCount";
             XCount.Size = new Size(0, 54);
             XCount.TabIndex = 9;
@@ -166,7 +166,7 @@
             OCount.AutoSize = true;
             OCount.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
             OCount.ForeColor = Color.DeepSkyBlue;
-            OCount.Location = new Point(351, 59);
+            OCount.Location = new Point(145, 36);
             OCount.Name = "OCount";
             OCount.Size = new Size(0, 54);
             OCount.TabIndex = 10;
@@ -175,18 +175,18 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(648, 450);
+            ClientSize = new Size(253, 312);
             Controls.Add(RightDownButton);
             Controls.Add(DownButton);
             Controls.Add(LeftDownButton);
             Controls.Add(RightButton);
             Controls.Add(CenterButton);
+            Controls.Add(RightUpButton);
+            Controls.Add(UpButton);
+            Controls.Add(LeftUpButton);
             Controls.Add(LeftButton);
             Controls.Add(OCount);
             Controls.Add(XCount);
-            Controls.Add(UpButton);
-            Controls.Add(RightUpButton);
-            Controls.Add(LeftUpButton);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
